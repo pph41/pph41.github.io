@@ -1,6 +1,10 @@
 # main links
 main:
+<<<<<<< HEAD
   - title: "menu"
+=======
+   - title: "Category"
+>>>>>>> b1af4eea2ad06b86be15aeae6548e9a1fe5972bb
     url: /categories/
   - title: "tag"
     url: /tags/
