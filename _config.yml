@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "dark" # "default","air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "pbplho4g1"
+title                    : "pph41's blog"
 title_separator          : "-"
-subtitle                 : "r2c0rd"
+subtitle                 : " :bust_in_silhouette: r2c0rd"
 name                     : "kingsu"
 description              : ""
 url                      : "https://pph41.github.io"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "kingsu"
+  name             : "김윤수"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "S2lteXVuc29v"
+  bio              : #
   location         : "___"
   email            :
   links:
