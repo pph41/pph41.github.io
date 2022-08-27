@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "dark" # "default","air", "aqua", "contrast", "dark",
 locale                   : "en-US"
 title                    : "pph41's blog"
 title_separator          : "-"
-subtitle                 : " :bust_in_silhouette: r3c0rd"
-name                     : "김윤수"
+subtitle                 : "   r3c0rd"
+name                     : "  김윤수"
 description              : ""
 url                      : "https://pph41.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "김윤수"
+  name             : "  김윤수"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : #
   location         : "___"
