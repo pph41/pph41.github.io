@@ -1,0 +1,37 @@
+---
+layout: single
+title:  "ctf-d multimedia 17"
+categories: forensic-multimedia
+tags: wargame
+---
+
+
+# <center>ctf-d 호레이쇼가 플래그를 보며...</center><br>
+###### 본 문제는 ctf-d.com의 문제입니다.<br>
+---
+![zoomIn_3a3f6e35934021eca75b0abde70333a6 jpg](https://user-images.githubusercontent.com/91110884/188303965-2096b8f0-a11c-44b7-9a9a-f6c1cf073c50.jpg)
+
+<br>
+<br>
+
+ 문제는 .jpg파일을 제시합니다.<br>
+문제 파일을 다운로드 받는데 생각보다 용량이 컸습니다. 벌써 의심이 가는 부분이 생겼습니다.<br>
+![호레이쇼-1](https://user-images.githubusercontent.com/91110884/188304130-99e7cba5-6631-4e1b-9dda-0dca2adab888.PNG)
+<br>
+![호레이쇼-2](https://user-images.githubusercontent.com/91110884/188304299-f7fad263-5597-490d-930c-57f0a41c89ff.PNG)
+<br>
+<br>
+PNG, JPG 파일의 시그니처로 검색해보니 3개의 jpg헤더,푸터를 찾았습니다.<br>
+헤더는 0, B8, 182  푸터는6A46, BA35, 1125AC가 존재합니다.<br> 
+순서대로 1:1 매칭하여 파일 카빙을 진행했습니다. 생각해보니 1:1로 매칭하여도<br>
+6A46에 존재하는 푸터시그니처에서 파일이 완성됩니다. 해당 헤더에서 부터 드래그 후<br>
+`ctrl` + `a` 하여 모두선택 해줍니다.<br>
+<br><br>
+![호레이쇼A](https://user-images.githubusercontent.com/91110884/188304867-7d32038c-75a2-4608-aff0-354662c9f0e3.jpg)
+<br><br>
+ B8부터 시작하는 이미지입니다. 플래그가 숨어있을지 모르나 일단 다음 파일부터 확인해보겠습니다.
+ <br><br>
+![호레이쇼B](https://user-images.githubusercontent.com/91110884/188304874-b74e74c2-8f3b-48b1-b9f1-afc100707c67.jpg)
+<br><br>
+좌우반전하면 플래그를 얻을 수 있을것 같습니다.<br>
+이번 문제는 이미 알고있는 해결방법들로 충분히 풀 수 있는 문제였습니다. 그래서그런지 몰입해서 재밌게 풀었던 문제입니다.
